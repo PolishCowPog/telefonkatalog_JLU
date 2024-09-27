@@ -2,7 +2,7 @@
 
 ### - Installere ssh
 ```
-1. Open CMD/Terminal
+1. Open Terminal
 2. Type "sudo apt install openssh-server"
 3. Type "sudo systemctl enable ssh"
 4. Type "sudo systemctl start ssh"
@@ -12,11 +12,14 @@
 
 
 ### - Åpne porter
+```
+1. type "sudo apt install ufw"
+2. type "sudo ufw enable"
+3. type "sudo ufw allow ssh"
+```
 
 
 ### - Installere Ubuntu
-
-
 ```
 1. Insert mini sd card into your laptop
 2. Open "Raspberry pi imager" or download from this link if not already installed: https://www.raspberrypi.com/software/
@@ -36,10 +39,18 @@
 
 ### - Installere mariadb
 ```
-1. Open CMD/Terminal.
+1. Open Terminal.
 2. Type "sudo apt install mariadb"
-3. Type "sudo mariadb"
+3. Type "sudo mariadb" (This will open mariadb in terminal)
 4. Type "CREATE USER 'username'@'localhost' IDENTIFIED BY 'password';"
-5. Type "GRANT ALL PRIVILEGES ON *.* TO 'username'@'localhost' IDINTIFIED BY 'password';"
+5. Type "GRANT ALL PRIVILEGES ON *.* TO 'username'@'localhost' IDENTIFIED BY 'password';"
 6. Type "FLUSH PRIVILEGES;"
+```
+#### Mariadb database setup
+```
+1. Exit mariadb by typing "exit;". you will return back to terminal
+2. in terminal logg in with the new user by typing "sudo mariadb -u username -p"
+3. type in the password you made
+4. type "CREATE DATABASE name"
+5. type "USE name;" to change into the database you just made, or use "SHOW DATABASES;" to check what databases exists.
 ```
