@@ -56,7 +56,7 @@
 5. type "USE name;" to change into the database you just made, or use "SHOW DATABASES;" to check what databases exists.
 ```
 
-### OTher essentials
+### Other essentials
 ```
 > for python type "sudo apt install python3-pip"
 > for git type "sudo apt install git"
