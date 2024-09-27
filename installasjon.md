@@ -3,9 +3,9 @@
 ### - Installere ssh
 ```
 1. Open CMD/Terminal
-2. Type "sudo apt install openssh-server" and press enter
-3. Type "sudo systemctl enable ssh" and press enter
-4. Type "sudo systemctl start ssh" and press enter
+2. Type "sudo apt install openssh-server"
+3. Type "sudo systemctl enable ssh"
+4. Type "sudo systemctl start ssh"
 ```
 
 ### - Sende filer
@@ -38,4 +38,8 @@
 ```
 1. Open CMD/Terminal.
 2. Type "sudo apt install mariadb"
+3. Type "sudo mariadb"
+4. Type "CREATE USER 'username'@'localhost' IDENTIFIED BY 'password';"
+5. Type "GRANT ALL PRIVILEGES ON *.* TO 'username'@'localhost' IDINTIFIED BY 'password';"
+6. Type "FLUSH PRIVILEGES;"
 ```
