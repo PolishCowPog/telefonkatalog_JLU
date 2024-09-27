@@ -29,8 +29,6 @@
 4. Type "sudo systemctl start ssh"
 ```
 
-### - Sending files
-
 
 ### - Opening ports / firewall
 ```
