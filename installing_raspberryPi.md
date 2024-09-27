@@ -16,6 +16,9 @@
 6. In systen configuration > Choose your language > Keyboard language > Connect to your wifi > Click on your location.
     Fill in your name, computers name, username, password and confirm password
 7. Wait for ubuntu to configure.
+8. Open Terminal
+9. type "sudo apt update"
+10. type "sudo apt upgrade"
 ```
 
 ### - Installing ssh
@@ -31,9 +34,10 @@
 
 ### - Opening ports / firewall
 ```
-1. type "sudo apt install ufw"
-2. type "sudo ufw enable"
-3. type "sudo ufw allow ssh"
+1. Open Terminal
+2. type "sudo apt install ufw"
+3. type "sudo ufw enable"
+4. type "sudo ufw allow ssh"
 ```
 
 ### - Installing mariadb
@@ -52,4 +56,10 @@
 3. type in the password you made
 4. type "CREATE DATABASE name"
 5. type "USE name;" to change into the database you just made, or use "SHOW DATABASES;" to check what databases exists.
+```
+
+### OTher essentials
+```
+> for python type "sudo apt install python3-pip"
+> for git type "sudo apt install git"
 ```
