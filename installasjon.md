@@ -1,24 +1,5 @@
 ## Raspberry pi setup
 
-### - Installere ssh
-```
-1. Open Terminal
-2. Type "sudo apt install openssh-server"
-3. Type "sudo systemctl enable ssh"
-4. Type "sudo systemctl start ssh"
-```
-
-### - Sende filer
-
-
-### - Åpne porter
-```
-1. type "sudo apt install ufw"
-2. type "sudo ufw enable"
-3. type "sudo ufw allow ssh"
-```
-
-
 ### - Installere Ubuntu
 ```
 1. Insert mini sd card into your laptop
@@ -35,6 +16,24 @@
 6. In systen configuration > Choose your language > Keyboard language > Connect to your wifi > Click on your location.
     Fill in your name, computers name, username, password and confirm password
 7. Wait for ubuntu to configure.
+```
+
+### - Installere ssh
+```
+1. Open Terminal
+2. Type "sudo apt install openssh-server"
+3. Type "sudo systemctl enable ssh"
+4. Type "sudo systemctl start ssh"
+```
+
+### - Sende filer
+
+
+### - Åpne porter
+```
+1. type "sudo apt install ufw"
+2. type "sudo ufw enable"
+3. type "sudo ufw allow ssh"
 ```
 
 ### - Installere mariadb
